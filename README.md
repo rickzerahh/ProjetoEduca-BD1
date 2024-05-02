@@ -63,23 +63,6 @@ O modelo abrange uma série de relacionamentos entre as entidades, como:
 
 - Podem ser encontrados dentro da Pasta Arquivos NOVOS
 
-ROTEIRO DO PITCH 
-
-1 - Introdução
-     A gente basicamente criou um banco de dados voltado para atender as necessidades de uma escola-livraria online, que busca melhorar a experiência que ela tem com os clientes e os alunos. 
-
-2 - Banco de dados
-     A partir do nosso banco de dados a escola-livraria online consegue fazer o gerenciamento de Livros e Autores, onde tem um armazenamento detalhado de informações sobre cada livro, incluindo título, editora, ano de lançamento e autor. Além disso, a gente tem um registro dos autores, incluindo seus nomes, datas de nascimento, nacionalidade entre outras informações.
-Gestão de Clientes e Pedidos, onde a escola-livraria online pode gerenciar facilmente seus clientes e pedidos. Mantemos registros detalhados de cada cliente, incluindo informações de contato e histórico de compras. Além disso, também é possível monitorar o status de cada pedido para garantir uma experiência para o cliente e o aluno.
-Integração com Pagamentos, facilitando os pagamentos e  permitindo que os clientes façam compras com segurança, enquanto a empresa acompanha e gerencia os pagamentos de forma eficaz.
-Gestão de Funcionários e Gerentes, onde o banco de dados inclui recursos completos para o gerenciamento de funcionários e gerentes. Mantemos registros detalhados de cada membro da equipe, incluindo suas funções, informações de contato e supervisores responsáveis.
-
-3 - DER, DLL E DML
-     Nessa parte aqui será mostrado o DER e os condigo DLL e DML para o pessoal conseguir entender de como tudo foi feito
-
-4 - Easter egg
-     Como nosso diferencial, a gente adicionou ao nosso projeto a opção dos alunos também poderem comprar livros além de apenas emprestá-los. Isso significa que podem adquirir seus livros favoritos para terem permanentemente. Além disso, a função de empréstimo tradicional continua disponível para quem preferir. Essa novidade amplia as opções dos alunos, proporcionando uma experiência mais completa ao explorar a biblioteca online.
-
 ### Contribuidores:
 
 _Gustavo Melo_,
