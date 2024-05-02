@@ -59,13 +59,9 @@ O modelo abrange uma série de relacionamentos entre as entidades, como:
 - Livros que são comprados por clientes através de pedidos.
 - Clientes que realizam pagamentos.
   
-### Códigos DML + DLL: 
+### Códigos DML + DLL + DQL: 
 
-- Podem ser encontrados dentro da Pasta Arquivos
-
-### Easter Egg: 
-
-Adicionamos uma surpresa especial ao nosso projeto: agora os alunos têm a opção de **comprar livros** além de apenas emprestá-los. Isso significa que podem adquirir seus livros favoritos para terem permanentemente. Além disso, a função de **empréstimo tradicional** continua disponível para quem preferir. Essa novidade *amplia as opções dos alunos*, proporcionando uma *experiência mais completa ao explorar a biblioteca online*.
+- Podem ser encontrados dentro da Pasta Arquivos NOVOS
 
 ROTEIRO DO PITCH 
 
