@@ -63,6 +63,15 @@ O modelo abrange uma série de relacionamentos entre as entidades, como:
 
 - Podem ser encontrados dentro da Pasta Arquivos NOVOS
 
+TRIGGERS: 
+
+Para esse projeto, implementamos dois triggers no banco de dados. O Primeiro é acionado
+logo após a inserção de um novo elemento na tabela Pedido. A Cada adição nessa tabela, o
+atributo Quant_para_venda do livro envolvido no pedido terá seu valor reduzido em 1. O segundo
+trigger atua antes da inserção e verifica se existem livros disponíveis para compra antes de
+permitir a inserção na tabela Pedido. Caso não tenha nenhum livro disponível, ele impedirá a 
+adição do elemento e retornará uma mensagem de erro.
+
 ### Contribuidores:
 
 _Gustavo Melo_,
