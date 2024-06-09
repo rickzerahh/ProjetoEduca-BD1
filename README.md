@@ -82,6 +82,23 @@ VIEWS:
 Criamos duas views: Uma mostra os livros separados por tipo e a outra confere os valores
 dos livros e os corrije se for necessário.
 
+SEGURANÇA:
+
+Para garantir a segurança do banco de dados, criamos dois usuários com permissões específicas
+com diferentes níveis de acesso. Um usuário administrador que pode acessar e modificar todos 
+os dados e um usuário de leitura que pode apenas visualizar os dados. Também implementamos uma
+tabela de controle de acesso que define quais usuários tem permissão para realizar determinadas
+operações, além de triggers para inserir, atualizar e deletar dados da tabela livros.
+
+NORMALIZAÇÃO: 
+
+Para colocar o nosso esquema na terceira forma normal realizamos as seguintes mudanças:
+
+*Adicionamos uma chave primária para a entidade Biblioteca;
+*Criamos uma tabela Nacionalidade e a referenciamos na tabela Autor por meio de uma chave estrangeira;
+*Trocamos a chave primária da entidade Pagamento
+
+
 
 ### Contribuidores:
 
