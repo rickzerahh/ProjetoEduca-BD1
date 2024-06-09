@@ -1,8 +1,8 @@
-//chamada do Store para ver o total de vendas
+--chamada do Store para ver o total de vendas
 CALL CalcularTotalVendasLivro('978-0133594140', @total_vendas);
 SELECT @total_vendas;
 
-//chamada do Store para inserior um novo livro
+--chamada do Store para inserior um novo livro
 CALL InserirNovoLivro(
     '978-1234567890', 
     '2024-06-01', 
