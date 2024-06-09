@@ -82,6 +82,7 @@ VIEWS:
 Criamos duas views: Uma mostra os livros separados por tipo e a outra confere os valores
 dos livros e os corrije se for necessário.
 
+
 ### Contribuidores:
 
 _Gustavo Melo_,
