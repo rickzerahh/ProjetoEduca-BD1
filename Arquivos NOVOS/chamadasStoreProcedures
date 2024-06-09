@@ -1,0 +1,20 @@
+//chamada do Store para ver o total de vendas
+CALL CalcularTotalVendasLivro('978-0133594140', @total_vendas);
+SELECT @total_vendas;
+
+//chamada do Store para inserior um novo livro
+CALL InserirNovoLivro(
+    '978-1234567890', 
+    '2024-06-01', 
+    1, 
+    'Novo Título', 
+    'Nova Editora', 
+    50, 
+    25, 
+    'Novo Autor', 
+    29.99, 
+    1, 
+    'BIB001', 
+    @isbn_inserido
+);
+SELECT @isbn_inserido;
