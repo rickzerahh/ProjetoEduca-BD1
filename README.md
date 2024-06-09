@@ -77,6 +77,11 @@ STORED PROCEDURES:
 Criamos dois stored procedures. O primeiro faz o cálculo do total de livros vendidos e o
 segundo faz a inserção de elementos na tabela livros.
 
+VIEWS:
+
+Criamos duas views: Uma mostra os livros separados por tipo e a outra confere os valores
+dos livros e os corrije se for necessário.
+
 ### Contribuidores:
 
 _Gustavo Melo_,
