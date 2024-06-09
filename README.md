@@ -98,6 +98,16 @@ Para colocar o nosso esquema na terceira forma normal realizamos as seguintes mu
 *Criamos uma tabela Nacionalidade e a referenciamos na tabela Autor por meio de uma chave estrangeira;
 *Trocamos a chave primária da entidade Pagamento
 
+CRUD:
+
+Para criar o CRUD, criamos uma API usando o framework Node.js e implementamos as seguintes operações:
+
+Visualizar a tabela livros, ou apenas um elemento dela,
+Inserir elementos na tabela Disciplina,
+Alterar elementos na tabela Aluno,
+Excluir elementos da tabela Professor.
+
+
 
 
 ### Contribuidores:
