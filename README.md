@@ -72,6 +72,11 @@ trigger atua antes da inserção e verifica se existem livros disponíveis para 
 permitir a inserção na tabela Pedido. Caso não tenha nenhum livro disponível, ele impedirá a 
 adição do elemento e retornará uma mensagem de erro.
 
+STORED PROCEDURES:
+
+Criamos dois stored procedures. O primeiro faz o cálculo do total de livros vendidos e o
+segundo faz a inserção de elementos na tabela livros.
+
 ### Contribuidores:
 
 _Gustavo Melo_,
